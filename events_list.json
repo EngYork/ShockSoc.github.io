@@ -11,15 +11,94 @@
 	    "form" : ""
 	},
 	{
-	    "name" : "Q-Factor",
-	    "description" : "Q-Factor is back!<br> Everyone's favorite open-mic night will be on Saturday 11th of June in the RKC, featuring the Engineering Department Staff band - and you!<br> To play, sign up below.",
-	    "date" : "11/06/2022",
+	    "name" : "Meet ShockSoc",
+	    "description" : "For those not planning on going out this evening why not drop by P/T/005, grab a drink, and chat with us about engineering, projects, or just life in general.",
+	    "date" : "29/09/2022",
 	    "start_time" : "19:00",
 	    "end_time" : "22:00",
-	    "location" : "P/L/001",
-	    "image" : "static/qfactor-poster.png",
-	    "form" : "https://docs.google.com/forms/d/e/1FAIpQLSd2VdY51iXNYmR4fWRH2wtC1DHT9wgv-JTFgOTm4Wag3Yg23A/viewform?usp=sf_link"
-	}
-	    
+	    "location" : "P/T/005",
+	    "image" : "",
+	    "form" : ""
+	},
+	    {
+	    "name" : "Building Bridges",
+	    "description" : "Teams will compete to build the best bridges with the materials provided. We'll then test them in fun and interesting ways.",
+	    "date" : "06/10/2022",
+	    "start_time" : "19:00",
+	    "end_time" : "22:00",
+	    "location" : "P/T/005",
+	    "image" : "",
+	    "form" : ""
+	},
+	{
+	    "name" : "The C Language",
+	    "description" : "Guiseppe will discuss the fundamentals of C, its' basic functions, and common pratfalls.",
+	    "date" : "13/10/2022",
+	    "start_time" : "19:00",
+	    "end_time" : "22:00",
+	    "location" : "P/T/005",
+	    "image" : "",
+	    "form" : ""
+	},
+	    {
+	    "name" : "Pumpkins - Part 1",
+	    "description" : "Right in time for Halloween, we'll be building Neopixel Pumpkins.<br>In this session, you'll be introduced to the Pumpkin, components, and Surface Mount soldering.",
+	    "date" : "19/10/2022",
+	    "start_time" : "13:30",
+	    "end_time" : "17:00",
+	    "location" : "P/T/401",
+	    "image" : "",
+	    "form" : ""
+	},
+	{
+	    "name" : "Catapults!",
+	    "description" : "Come along for some catapult-related chaos!<br>In teams, build a catapult and complete challenges.",
+	    "date" : "20/10/2022",
+	    "start_time" : "19:00",
+	    "end_time" : "22:00",
+	    "location" : "P/T/005",
+	    "image" : "",
+	    "form" : ""
+	},
+	   {
+	    "name" : "Pumpkins - Part 2",
+	    "description" : "Electric boogaloo!<br>In which we finish building Pumpkins.",
+	    "date" : "26/10/2022",
+	    "start_time" : "13:30",
+	    "end_time" : "17:00",
+	    "location" : "P/T/401",
+	    "image" : "",
+	    "form" : ""
+	}, 
+	    {
+	    "name" : "Haloween Event",
+	    "description" : "Our spookiest event of the year.<br>Further details TBA!",
+	    "date" : "27/10/2022",
+	    "start_time" : "19:00",
+	    "end_time" : "22:00",
+	    "location" : "P/T/005",
+	    "image" : "",
+	    "form" : ""
+	},
+	    {
+	    "name" : "Winter In-Formal",
+	    "description" : "Our Winter In-Formal returns.",
+	    "date" : "23/11/2022",
+	    "start_time" : "19:00",
+	    "end_time" : "23:00",
+	    "location" : "Impossible York, St. Helen's Square.",
+	    "image" : "",
+	    "form" : ""
+	},
+	    {
+	    "name" : "Rockets",
+	    "description" : "Celebrate the end of Term with some Rockets.",
+	    "date" : "24/11/2022",
+	    "start_time" : "19:00",
+	    "end_time" : "22:00",
+	    "location" : "Impossible York, St. Helen's Square.",
+	    "image" : "",
+	    "form" : ""
+	},
     ]
 }
