@@ -5,10 +5,19 @@ import { Icon } from "astro-icon";
 <footer
   class="flex-shrink-0 flex flex-row w-full justify-between bg-slate-900 p-4 items-center"
 >
-  <p class="flex flex-row mr-4">
+  <p class="flex flex-row mr-4 items-center">
     <span
       ><Icon name="ic:sharp-copyright" class="w-6 h-6 mx-4 text-slate-100" />
-    </span> ShockSoc, The University Of York&apos;s Engineering Society
+    </span>
+    <span class="flex flex-col">
+      <span>ShockSoc, The University Of York&apos;s Engineering Society</span>
+      <span
+        >WebDev by
+        <a href="https://barillari.me/" class="text-orange-500 underline"
+          >G. Barillari</a
+        >
+      </span>
+    </span>
   </p>
   <a
     href="https://github.com/ShockSoc/website"
