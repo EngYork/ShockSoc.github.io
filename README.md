@@ -34,9 +34,9 @@ All images should be uploaded in the right dimensions and `.webp` format.
 
 Text information about the committee should be added [here](https://console.firebase.google.com/u/0/project/website-storage-74225/database/website-storage-74225-default-rtdb/data/~2Fcommittee). Note: the expected form is:
 
-```json
+```ts
 Name: {
-    bio: "Their Bio"
+  bio: "Their Bio";
 }
 ```
 
