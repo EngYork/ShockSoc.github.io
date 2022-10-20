@@ -8,12 +8,13 @@ import MobileLink from "./header/MobileLink.astro";
 <header
   class="flex flex-row w-full justify-between bg-slate-900 p-4 items-center shadow-xl z-10"
 >
-  <button id="openMenuBtn" class="md:hidden">
+  <button id="openMenuBtn" class="md:hidden" aria-label="Open navigation menu">
     <Icon name="ic:outline-menu" class="w-10 h-10 text-slate-100" />
   </button>
   <a
     href="/"
     class="justify-self-center flex flex-row p-2 hover:bg-slate-800 rounded transition-colors ease-in-out duration-200"
+    aria-label="Visit website's home"
   >
     <svg
       version="1.1"
@@ -48,7 +49,7 @@ import MobileLink from "./header/MobileLink.astro";
     id="mobileMenu"
     class="md:hidden fixed top-0 left-0 right-0 bottom-0 -translate-x-[200vw] transition-transform ease-in-out duration-200 bg-slate-900 flex flex-col p-4"
   >
-    <button class="m-4" id="closeMenuBtn">
+    <button class="m-4" id="closeMenuBtn" aria-label="Close navigation menu">
       <Icon name="ic:outline-close" class="w-10 h-10 text-slate-100" />
     </button>
     <MobileLink link="/website/" text="home" />
