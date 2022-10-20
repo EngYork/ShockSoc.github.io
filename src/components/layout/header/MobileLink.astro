@@ -8,5 +8,5 @@ const { link, text } = Astro.props;
 ---
 
 <a href={link} class="uppercase font-bold text-lg p-4">
-  {text ? text : link}
+  {text ? text : link.replaceAll("/", "")}
 </a>

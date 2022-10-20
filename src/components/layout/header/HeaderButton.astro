@@ -11,5 +11,5 @@ const { link, text } = Astro.props;
   href={link}
   class="hover:bg-slate-800 rounded transition-colors ease-in-out duration-200 uppercase font-bold text-lg p-4"
 >
-  {text ? text : link}
+  {text ? text : link.replaceAll("/", "")}
 </a>

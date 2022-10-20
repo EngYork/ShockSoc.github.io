@@ -3,7 +3,7 @@
     {
       "name": "Yusu",
       "cardColours": "border-cyan-700 shadow-cyan-700 bg-cyan-700/10 dark:bg-cyan-500/10 dark:border-cyan-500 dark:shadow-cyan-500",
-      "image": "/website/assets/yusu.webp",
+      "image": "/assets/yusu.webp",
       "badgeColours": "border-cyan-700 dark:border-cyan-500",
       "textColour": "text-cyan-700 dark:text-cyan-500",
       "hoverTextColour": "hover:text-cyan-700 dark:hover:text-cyan-500",
@@ -13,7 +13,7 @@
     {
       "name": "Discord",
       "cardColours": "border-indigo-700 shadow-indigo-700 bg-indigo-700/10 dark:bg-indigo-400/10 dark:border-indigo-400 dark:shadow-indigo-400",
-      "image": "/website/assets/discord.webp",
+      "image": "/assets/discord.webp",
       "badgeColours": "border-indigo-700 dark:border-indigo-400",
       "textColour": "text-indigo-700 dark:text-indigo-400",
       "hoverTextColour": "hover:text-indigo-700 dark:hover:text-indigo-400",
@@ -23,7 +23,7 @@
     {
       "name": "Twitter",
       "cardColours": "border-sky-700 shadow-sky-700 bg-sky-700/10 dark:bg-sky-400/10 dark:border-sky-400 dark:shadow-sky-400",
-      "image": "/website/assets/twitter.webp",
+      "image": "/assets/twitter.webp",
       "badgeColours": "border-sky-700 dark:border-sky-400",
       "textColour": "text-sky-700 dark:text-sky-400",
       "hoverTextColour": "hover:text-sky-700 dark:hover:text-sky-400",
@@ -33,7 +33,7 @@
     {
       "name": "Instagram",
       "cardColours": "border-orange-700 bg-orange-700/10 shadow-orange-700 dark:border-orange-400 dark:bg-orange-400/10 dark:shadow-orange-400",
-      "image": "/website/assets/instagram.webp",
+      "image": "/assets/instagram.webp",
       "badgeColours": "border-orange-700 dark:border-orange-400",
       "textColour": "text-orange-700 dark:text-orange-400",
       "hoverTextColour": "hover:text-orange-700 dark:hover:text-orange-400",
@@ -43,7 +43,7 @@
     {
       "name": "Github",
       "cardColours": "border-black bg-black/10 shadow-black",
-      "image": "/website/assets/github.webp",
+      "image": "/assets/github.webp",
       "badgeColours": "border-black",
       "link": "https://github.com/ShockSoc",
       "buttonMessage": "See our GitHub Org"

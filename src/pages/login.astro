@@ -57,14 +57,14 @@ import Layout from "../layouts/Layout.astro";
         document.cookie = `gh=${credential.accessToken};path=/`;
 
         // Redirect
-        window.location.href = "/website/";
+        window.location.href = "/";
       } else {
         alert("GITHUB PROVIDER ERROR: Empty credentials");
       }
     }
   });
 
-  authObserver(() => (window.location.href = "/website/"));
+  authObserver(() => (window.location.href = "/"));
 </script>
 
 <style>

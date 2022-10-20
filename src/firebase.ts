@@ -47,14 +47,14 @@ const deploy = () =>
     }
 
     fetch(
-      "https://api.github.com/repos/ShockSoc/website/actions/workflows/deploy.yml/dispatches",
+      "https://api.github.com/repos/ShockSoc/ShockSoc.github.io/actions/workflows/deploy.yml/dispatches",
       {
         method: "POST",
         headers: {
           Accept: "application/vnd.github+json",
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify({ ref: "astro" }),
+        body: JSON.stringify({ ref: "main" }),
       }
     )
       .then(async (res) => {

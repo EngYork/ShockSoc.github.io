@@ -4,12 +4,12 @@ import { authObserver } from "../../../firebase";
 type LoginHeaderParams = [url: string, text?: string];
 
 const [lhparams, setLHParams] = createSignal<LoginHeaderParams>([
-  "/website/login",
+  "/login",
   "log in",
 ]);
 
-const setLogIn = () => setLHParams(["/website/login", "log in"]);
-const setLogOut = () => setLHParams(["/website/logout", "log out"]);
+const setLogIn = () => setLHParams(["/login", "log in"]);
+const setLogOut = () => setLHParams(["/logout", "log out"]);
 const LoginHeaderButton = () => {
   authObserver(
     () => setLogOut(),

@@ -43,5 +43,5 @@ import Layout from "../layouts/Layout.astro";
 
   logout.addEventListener("click", () => getAuth(firebaseClient).signOut());
 
-  authObserver(undefined, () => (window.location.href = "/website/"));
+  authObserver(undefined, () => (window.location.href = "/"));
 </script>
