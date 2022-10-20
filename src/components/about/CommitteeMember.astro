@@ -14,14 +14,14 @@ const { name, bio, image } = Astro.props;
       <img
         src={image}
         alt={`Picture of ${name}`}
-        class="w-full h-full object-fill rounded p-2"
+        class="w-full h-full object-cover rounded p-2"
       />
       <div
         class="absolute bottom-0 left-0 w-[calc(100%-1rem)] p-4 mx-2 bg-gradient-to-tr from-uni-green/80 to-uni-blue/80 text-slate-100"
       >
         <p class="text-2xl xl:text-3xl italic">{name}</p>
         <p
-          class="text-[0px] group-hover:text-lg text-justify transition-[font] ease-in-out duration-150"
+          class="text-[0px] group-hover:text-base sm:group-hover:text-lg text-justify transition-[font] ease-in-out duration-150"
         >
           {bio}
         </p>
