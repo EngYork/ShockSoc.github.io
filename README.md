@@ -15,7 +15,7 @@ Backend:
 
 # Workflow
 
-The workflow is triggered anytime an event is modified by an admin using the admin's OAuth token provided by GitHub (via the Firebase authentication flow). The token must contain the `repo` scope. Alternatively, the workflow can be triggered using the GitHub web interface.
+The workflow is triggered anytime an event is modified by an admin using the admin's OAuth token provided by GitHub (via the Firebase authentication flow). The token must contain the `repo` scope. Alternatively, the workflow can be triggered using the GitHub web interface. The administrator must be a member of the organisation and have admin rights to the website repo.
 
 # Adding administrators
 
