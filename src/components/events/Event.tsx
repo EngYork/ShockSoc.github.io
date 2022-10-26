@@ -82,7 +82,7 @@ const Event = (props: Props) => {
     };
     if (props.image) {
       const storage = getStorage(firebaseClient);
-      const imagePath = `events/${props.name.toLowerCase()}.png`;
+      const imagePath = `events/${props.name.toLowerCase()}.webp`;
       deleteObject(sRef(storage, imagePath))
         .then(() => removeFromDB())
         .catch((err) => {
