@@ -12,6 +12,10 @@ module.exports = {
           yellow: "#fbb800",
         },
       },
+      screens: {
+        "2xl": "1540px",
+        "3xl": "1666px",
+      },
     },
   },
   plugins: [],
