@@ -94,7 +94,7 @@ const Event = (props: Props) => {
 
   return (
     <>
-      <div class="md:w-2/3 rounded self-center shadow-lg border-2 border-slate-900 bg-slate-600 flex flex-col relative my-4">
+      <div class="md:w-2/3 max-w-[700px] rounded self-center shadow-lg border-2 border-slate-900 bg-slate-600 flex flex-col relative my-4">
         <Show when={props.auth()}>
           <div class="absolute right-0 top-0 translate-x-1/2 -translate-y-1/2 bg-slate-400 p-2 rounded-full shadow-lg flex flex-row">
             <button class="ml-4 mr-2" onClick={() => setEdit(true)}>
